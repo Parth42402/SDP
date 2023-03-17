@@ -1,0 +1,38 @@
+/* .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+/* .card{
+    border: 1px solid black;
+    width: 32%;
+} */
+
+
+.form-container{
+    width: 80%;
+
+}
+
+.login-page{
+    margin-top: 5%;
+    background-color: rgb(251, 235, 182);
+    border-radius: 30px;
+    box-shadow: 5px 10px rgb(185, 94, 94);
+}
+
+body{
+    background-color: rgb(244, 241, 237);
+}
+
+.image{
+    margin-top: 20px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.login-header{
+    padding-left: 90px;
+}

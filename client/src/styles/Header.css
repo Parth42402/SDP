@@ -1,0 +1,23 @@
+
+  .header-top {
+    background-color: #045d5d;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .header-upper{
+    background-color: #017e7e!important;
+  }
+
+  .header-upper .input-group-text {
+    background-color:rgb(255, 213, 172)
+  }
+
+  .menu-links a{
+    color: white;
+  }
+
+  .menu-links .active{
+    background-color:#017e7e!important;
+  }
