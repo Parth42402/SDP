@@ -76,7 +76,7 @@ export const Profile = () => {
 
                 ]
             }}>
-                    <h5 className='text-light'>Personal Details</h5>
+                    <h5 className='text-black'>Personal Details</h5>
                     <Row gutter={30}>
 
 
@@ -112,7 +112,7 @@ export const Profile = () => {
 
                     </Row>
 
-                    <h5 className='text-light'>Professional Details</h5>
+                    <h5 className='text-dark'>Professional Details</h5>
 
                     <Row gutter={30}>
 

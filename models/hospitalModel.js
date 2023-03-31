@@ -35,7 +35,7 @@ const hospitalSchema=new mongoose.Schema({
         type:Object,
         required:[true,'timeing is required']
     }
-
+    
 },{timestamps:true})
 
 const hospitalModel=mongoose.model('hospital',hospitalSchema)
