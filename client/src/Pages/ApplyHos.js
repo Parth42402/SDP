@@ -47,7 +47,7 @@ const ApplyHos = () => {
             <Layout>
                 <h1 className='text-center'>Apply Hospital</h1>
                 <Form layout='vertical' onFinish={handleFinish} className='m-5'>
-                    <h5 className='text-light'>Personal Details</h5>
+                    <h5 className='text-dark'>Personal Details</h5>
                     <Row gutter={30}>
 
 
@@ -83,7 +83,7 @@ const ApplyHos = () => {
 
                     </Row>
 
-                    <h5 className='text-light'>Professional Details</h5>
+                    <h5 className='text-black'>Professional Details</h5>
 
                     <Row gutter={30}>
 
@@ -95,7 +95,7 @@ const ApplyHos = () => {
                         </Col>
 
                         <Col xs={24} md={24} lg={8}>
-                            <Form.Item label="Timing" name="timings" required rules={[{ required: true }]}>
+                            <Form.Item label="Timing" name="timings" required>
                                 <TimePicker.RangePicker format="HH:mm" />
                             </Form.Item>
                         </Col>

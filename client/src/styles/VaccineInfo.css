@@ -13,3 +13,59 @@
     border-color: red;
     border: 20px;
 }
+
+.VaccinationSteps{
+    padding: 45px;
+    background-color: rgb(232, 247, 247);
+}
+
+.VaccinationSteps h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #007c7c;
+}
+
+.VaccinationSteps h4{
+    font-weight: 700;
+    color: #007c7c;
+}
+
+.VaccinationSteps .img-holder{
+    padding: 25px 13px 0;
+    background-color: white;
+}
+
+.VaccinationSteps .step-content{
+    background-color: #56dddd;
+}
+
+.VaccinationSteps .step-card{
+    background-color: white;
+    border: 5px solid rgb(150, 166, 222);
+    border-radius: 10px;
+}
+
+.VaccinationSteps .step-footer{
+    padding: 25px 13px 0;
+    background-color: white;
+    padding-top: 1px;
+    color:#007c7c
+}
+
+.children-vaccination .heading {
+    color: #007c7c;
+}
+
+.children-vaccination{
+    padding-left: 50px;
+    background-color: white;
+}
+
+.children-vaccination .child-image{
+   width: 450px;
+   margin-top: 50px;
+}
+
+.children-vaccination .vaccine-type{
+    color: #187272;
+}

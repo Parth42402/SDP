@@ -11,7 +11,7 @@
     min-height: 100%;
     width: 300px;
     border-radius: 5px;
-    background-color: rgb(45, 44, 44);
+    background-color: #105253!important;
     box-shadow: 0 0 10px white;
     margin-right: 20px;
     color: white;
@@ -27,7 +27,7 @@
     border-radius: 5px;
     margin-bottom: 20px;
     box-shadow: 0 0 2px rgb(30, 8, 8);
-    background-color: rgb(254, 241, 200);
+    background-color: rgb(240, 246, 211);
 }
 
 .body{
@@ -35,7 +35,7 @@
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 2px rgb(19, 9, 9);
-    background-color: rgb(246, 246, 192);
+    background-color: aliceblue;
 }
 
 .logo{
