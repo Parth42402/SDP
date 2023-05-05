@@ -18,18 +18,9 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 //routes
-app.use(
-  "https://sdp-kbeb.onrender.com/api/v1/user",
-  require("./routes/userRoutes")
-);
-app.use(
-  "https://sdp-kbeb.onrender.com/api/v1/admin",
-  require("./routes/adminRoutes")
-);
-app.use(
-  "https://sdp-kbeb.onrender.com/api/v1/hospital",
-  require("./routes/hospitalRoutes")
-);
+app.use("/api/v1/user", require("./routes/userRoutes"));
+app.use("/api/v1/admin", require("./routes/adminRoutes"));
+app.use("/api/v1/hospital", require("./routes/hospitalRoutes"));
 
 app.get("/", (req, res) => {
   res.send("Server running...");
